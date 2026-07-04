@@ -1,0 +1,24 @@
+[package]
+name = "rustshark"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# TUI
+ratatui = "0.29"
+crossterm = "0.28"
+
+# 패킷 캡처
+pcap = "2.2"
+
+# pcap 파일 I/O
+pcap-file = "2.0"
+
+# 프로토콜 파싱
+nom = "7.1"
+
+# 스레드 통신
+crossbeam-channel = "0.5"
+
+# 에러 처리
+thiserror = "2.0"
